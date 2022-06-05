@@ -1,6 +1,6 @@
 # Filipovich Volha
 ## Junior Frontend Developer
----
+
 ## Contacts 
 
 **Mobile:** +375297779624\
@@ -9,5 +9,5 @@
 [LinkedIn](https://www.linkedin.com/in/volha-filipovich-6a5848227/)\
 [Behance](https://www.behance.net/olenenokol464c)
 
----
+
 
