@@ -27,3 +27,8 @@ I believe, that my desire to learn and to gain new skills let me become professi
 
 ## Code Example
 
+`const multiply = (num1, num2) => {
+  return num1 * num2;
+};
+let resulMultiply = multiply(4, 5);
+console.log(resulMultiply);`
