@@ -1,4 +1,4 @@
-![Avatar](/rsshool-cv/IMG_8606 1.png)
+![Avatar](https://drive.google.com/file/d/1fvqDzQYs1mRHfh4A6PFKXrGHgwVZVEUK/view?usp=sharing)
 
 
 # Filipovich Volha
@@ -69,4 +69,3 @@ Engineer, team leader
 
 * Russian  - native
 * English - Upper-intermediate **(B2)** - Streamline Language school
-
