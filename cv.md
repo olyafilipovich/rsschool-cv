@@ -1,6 +1,3 @@
-![Avatar](https://drive.google.com/file/d/1fvqDzQYs1mRHfh4A6PFKXrGHgwVZVEUK/view?usp=sharing)
-
-
 # Filipovich Volha
 ## Junior Frontend Developer
 
