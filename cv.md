@@ -1,3 +1,6 @@
+![Avatar](/rsshool-cv/IMG_8606 1.png)
+
+
 # Filipovich Volha
 ## Junior Frontend Developer
 
@@ -61,4 +64,9 @@ Barista
 
 **08.2011- 08.2018 Belkomunproect**\
 Engineer, team leader
+
+## Languages
+
+* Russian  - native
+* English - Upper-intermediate **(B2)** - Streamline Language school
 
