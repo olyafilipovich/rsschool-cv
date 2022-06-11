@@ -49,6 +49,10 @@ html {
     scroll-behavior: smooth; 
   }
 
+h1 {
+    font-size: 32px;
+}
+
 .contact-list {
     list-style: none;
     line-height: 32px;
@@ -69,4 +73,20 @@ html {
 
 .contact-item span {
      font-weight: bold;
+}
+
+.section-summary {
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+}
+
+.skills-item {
+    list-style: none;
+    line-height: 32px;
+    font-size: 14px;
+}
+
+.code {
+      line-height: 1.5;
 }
