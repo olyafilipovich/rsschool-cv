@@ -17,6 +17,10 @@ body {
     margin: 0 auto;
     }
 
+.header .container {
+    background-color: #78ade6;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -41,13 +45,19 @@ body {
 
 .nav-link:hover {
     text-decoration: underline;
-    color: #226bba;
+    color: white;
     transition: .3s;
     } 
 
 html {
     scroll-behavior: smooth; 
   }
+  
+.avatar img {
+    width: 500px;
+    height: auto;
+    align-items: left;
+}
 
 h1 {
     font-size: 32px;
