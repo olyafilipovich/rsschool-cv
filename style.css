@@ -117,3 +117,7 @@ h1 {
     color: black;
    }
 
+.languages-item span {
+    font-weight: bold;
+}
+
