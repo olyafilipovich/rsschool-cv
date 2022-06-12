@@ -103,3 +103,17 @@ h1 {
     line-height: 1.5;
     color: black;
    }
+
+.experience {
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+}
+
+.experience-bold {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+   }
+
