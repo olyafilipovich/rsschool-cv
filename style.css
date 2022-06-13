@@ -26,6 +26,7 @@ body {
 
 .nav-list {
     list-style: none;
+    margin-right: 50px;
   }
 
 .nav-link {
@@ -36,7 +37,7 @@ body {
 .nav-link {
     text-decoration: none;
     transition:  .3s;
-    color: black;
+    color: #3B312B;
     font-size: 16px;
     } 
 
@@ -71,11 +72,41 @@ html {
 }
 
 .left-block .section {
-    padding: 50px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.right-block {
+    padding: 0 50px 50px 50px;
+   }
+
+.right-block .section {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 48px;
+    margin-bottom: 0px;
+    letter-spacing: 5px;
+}
+
+.left-block h2 {
+    border-bottom: 2px solid #3B312B; 
+    font-weight: normal;
+    padding-bottom: 5px;  
+}
+
+.right-block h2 {
+    border-bottom: 2px solid #3B312B; 
+    font-weight: normal;
+    padding-bottom: 5px;  
+}
+
+#profile h2 {
+    border-bottom: 0px;
+    border-top: 3px solid #3B312B;
+    padding-top: 20px;  
 }
 
 .contact-list {
@@ -87,7 +118,7 @@ h1 {
 .contact-link {
     text-decoration: none;
     transition:  .3s;
-    color: black;
+    color: #3B312B;
     font-size: 16px;
     } 
 
@@ -102,9 +133,9 @@ h1 {
 }
 
 .section-summary {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
-    color: black;
+    color: #3B312B;
 }
 
 .skills-list {
@@ -119,36 +150,33 @@ h1 {
 }
 
 .education {
-    font-size: 14px;
-    line-height: 1.5;
-    color: black;
+    font-size: 16px;
+    line-height: 2;
+    color: #3B312B;
 }
 
-.education-bold {
+.education span {
     font-weight: bold;
-    font-size: 14px;
-    line-height: 1.5;
-    color: black;
-   }
+}
 
 .experience {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
-    color: black;
+    color: #3B312B;
 }
 
 .experience-bold {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.5;
-    color: black;
+    color: #3B312B;
    }
 
 .languages-list {
     line-height: 32px;
     font-size: 16px;
     padding-left: 20px;
-    color: black;
+    color: #3B312B;
 }
 
 .languages-item span {
@@ -157,13 +185,14 @@ h1 {
 
 .footer-list {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
   }
 
 .footer-list {
     list-style: none;
-  }
+    margin-right: 50px;
+    }
 
 .footer-item {
     padding: 0 20px;
@@ -174,11 +203,13 @@ h1 {
 .footer-link {
     text-decoration: none;
     transition:  .3s;
-    color: black;
+    color: #3B312B;
         } 
 
 .footer-link:hover {
     text-decoration: underline;
     color: #226bba;
     transition: .3s;
-    }   
+    } 
+
+  
