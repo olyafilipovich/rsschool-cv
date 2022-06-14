@@ -23,6 +23,14 @@ body {
     justify-content: flex-end;
     align-items: center;
     }
+.nav-list {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-top: 2px solid #3B312B;
+        border-bottom: 2px solid #3B312B;
+        margin: 0 auto;
+        background-color: rgb(253, 229, 199);
+    }
 
 .nav-list {
     list-style: none;
@@ -43,7 +51,7 @@ body {
 
 .nav-link:hover {
     text-decoration: underline;
-    color:#226bba;
+    color: white;
     transition: .3s;
     } 
 
@@ -58,7 +66,7 @@ html {
 }
 
 .left-block {
-    background-color: #98d9f7;
+    background-color: #b9d3fa;
     width: 800px;
     padding: 0 50px 50px 50px;
    }
@@ -189,6 +197,10 @@ code {
     background-color:#eeeeee;
 }
 
+#code {
+    margin-bottom: -20px;
+}
+
 .footer-list {
     display: flex;
     justify-content: center;
@@ -196,9 +208,18 @@ code {
   }
 
 .footer-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 2px solid #3B312B;
+    border-bottom: 2px solid #3B312B;
+    margin: 0 auto;
+    background-color: rgb(253, 229, 199);
+}
+
+.footer-list {
     list-style: none;
-    margin-right: 50px;
-    }
+    margin-right: 50px
+   }
 
 .footer-item {
     padding: 0 20px;
@@ -214,7 +235,7 @@ code {
 
 .footer-link:hover {
     text-decoration: underline;
-    color: #226bba;
+    color: white;
     transition: .3s;
     } 
 
