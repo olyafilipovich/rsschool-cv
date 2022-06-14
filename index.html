@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>HTML5. Базовый шаблон для любого проекта</title>
+  <title>cv</title>
   <meta name="description" content="Шаблон HTML5 для любого проекта">
   <meta name="author" content="Кодер">
   <meta property="og:type" content="website">
@@ -11,13 +11,142 @@
   <meta property="og:description" content="Шаблон HTML5 для любого проекта">
   <meta property="og:image" content="image.png">
   <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon.ico" >
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <!-- your content here... -->
-  <script src="js/scripts.js"></script>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#summary" class="nav-link">About myself</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="container main">
+      
+
+     <div class="left-block">
+      <div class="avatar">
+        <img src="./assets/IMG_8606.jpg" alt="avatar">
+      </div>
+      <section class="section" id="contacts">
+        <h2 class="section-title">CONTACTS</h2>
+        <ul class="contact-list">
+          <li class="contact-item"><span>Mobile:</span> +375297779624</li>
+          <li class="contact-item"><span>E-mail:</span><a href="mailto:olenenokolya1988@gmail.com" class="contact-link"> olenenokolya1988@gmail.com</a></li>
+          <li class="contact-item"><span>GitHub:</span><a href="https://github.com/olyafilipovich" class="contact-link" target="_blank"> olyafilipovich</a></li>
+          <li class="contact-item"><a href="https://www.linkedin.com/in/volha-filipovich-6a5848227" class="contact-link" target="_blank"> LinkedIn</a></li>
+          <li class="contact-item"><a href="https://www.behance.net/olenenokol464c" class="contact-link" target="_blank"> Behance</a></li>
+        </ul>
+      </section>
+      
+      <section class="section" id="skills">
+        <h2 class="section-title">SKILLS</h2>
+          <ul class="skills-list">
+            <li class="skills-item">Figma</li>
+            <li class="skills-item">Adobe Illustrator, Photoshop</li>
+            <li class="skills-item">HTML and CSS</li>
+          </ul>
+      </section>
+
+      <section class="section" id="languages">
+        <h2 class="section-title">LANGUAGES</h2>
+        <ul class="languages-list">
+          <li class="languages-item">Russian  - native</li>
+          <li class="languages-item">English - Upper-intermediate <span>(B2)</span> - Streamline Language school</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="right-block">
+      <section class="section" id="profile">
+        <h1 class="section-title">FILIPOVICH VOLHA</h1>
+        <h2 class="section-title">Junior Frontend Developer</h2>
+      </section>
+
+      <section class="section" id="summary">
+        <h2 class="section-title">ABOUT MYSELF</h2>
+        <p class="section-summary">I started my career as an engineer in Belkomunproect. I went from a simple engineer to the head of a design team. For 7 years I made many projects in whole Belarus.</p>
+
+        <p class="section-summary">When work turned into a routine, I decided to radically change the field of activity and went into catering. Working in a coffee shop, I became more sociable, my circle of acquaintances expanded. I am not afraid to take on serious tasks, I am attentive to details.</p>
+          
+        <p class="section-summary">Thanks to my work, I have enough free time, which I spend for studying and hobbies. Recently I have finished course of UX UI Design. After doing a few study/test tasks, I became interested to know how my design can be turned into a “live” website.</p>
+          
+        <p class="section-summary">I believe, that my desire to learn and to gain new skills let me become professional Frontend Developer and create and create stylish user-friendly websites.</p>
+      </section>
+
+  
+      <section class="section" id="education">
+        <h2 class="section-title">EDUCATION</h2>
+        <p class="education"><span>03.2022 - 06.2022 Speak Coding</span><br>
+        Course: Understand (work with code, reading code)</p>
+      
+        <p class="education"><span>08.11.2021 - 29.11.2021 Design school Yan Ageenko</span><br>
+        Course: design in the style of Minimorphism</p>
+       
+        <p class="education"><span>01.2021 - Present  VideoSmile</span><br>
+        Course: Superillustrator (online)</p>
+       
+        <p class="education"><span>12.2020 - 01.2021 VsemArt</span><br>
+        Course: Architectural sketching, advanced course (online)</p>
+        
+        <p class="education"><span>2016 - 2011 BNTU</span><br>
+        Course: Department of power engineering (engineer of watersupply, wastewater treatment and protection of water resources)</p>
+      </section>
+
+      <section class="section" id="experience">
+        <h2 class="section-title">EXPERIENCE</h2>
+        <p class="experience"><span>21.07.2021-01.12.2021 TeachMeSkills</span><br>
+        UX/UI designer/ Junior</p>
+    
+        <p class="experience"><span>02.2019 - Present Onemore (coffeeshop)</span><br>
+        Barista</p>
+
+        <p class="experience"><span>08.2011- 08.2018 Belkomunproect</span><br>
+         Engineer, team leader</p>
+      </section>
+
+      <section class="section" id="code">
+        <h2 class="section-title">CODE EXAMPLE</h2>
+        <pre class="code">
+          <code>
+            const multiply = (num1, num2) => {
+              return num1 * num2;
+           };
+           let resulMultiply = multiply(4, 5);
+           console.log(resulMultiply);
+          </code>
+        </pre>
+      </section>
+      </div>
+      </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <ul class="footer-list">
+        <li class="footer-item"><a href="https://github.com/olyafilipovich" class="footer-link" target="_blank">GitHub</a></li>
+        <li class="footer-item"><a href="https://rs.school/js/" class="footer-link" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="logo" height="32"></a></li>
+        <li class="footer-item"><span>2022</span></li>
+    </ul>
+    </div>
+  </footer>
 </body>
 </html>
 
