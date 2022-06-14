@@ -161,16 +161,13 @@ h1 {
 
 .experience {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 2;
     color: #3B312B;
 }
 
-.experience-bold {
+.experience span {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #3B312B;
-   }
+}
 
 .languages-list {
     line-height: 32px;
@@ -181,6 +178,15 @@ h1 {
 
 .languages-item span {
     font-weight: bold;
+}
+
+code {
+    color: #3B312B;
+}
+
+.code {
+    padding: 20px;
+    background-color:#eeeeee;
 }
 
 .footer-list {
