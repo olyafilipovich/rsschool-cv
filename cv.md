@@ -51,3 +51,19 @@ Course: Architectural sketching, advanced course (online)
 **2016 - 2011 BNTU**\
 Course: Department of power engineering (engineer of watersupply, wastewater treatment and protection of water resources)
 
+## Experience
+
+**21.07.2021-01.12.2021 TeachMeSkills**\
+UX/UI designer/ Junior
+
+**02.2019 - Present Onemore (coffeeshop)**\
+Barista
+
+**08.2011- 08.2018 Belkomunproect**\
+Engineer, team leader
+
+## Languages
+
+* Russian  - native
+* English - Upper-intermediate **(B2)** - Streamline Language school
+
