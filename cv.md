@@ -24,3 +24,30 @@ I believe, that my desire to learn and to gain new skills let me become professi
 * Figma
 * Adobe Illustrator, Photoshop
 * HTML and CSS
+
+## Code Example
+
+```
+const multiply = (num1, num2) => {
+   return num1 * num2;
+};
+let resulMultiply = multiply(4, 5);
+console.log(resulMultiply);
+```
+## Education
+
+**03.2022 - 06.2022 Speak Coding**\
+Course: Understand (work with code, reading code)
+
+**08.11.2021 - 29.11.2021 Design school Yan Ageenko**\
+Course: design in the style of Minimorphism
+
+**01.2021 - Present  VideoSmile**\
+Course: Superillustrator (online)
+
+**12.2020 - 01.2021 VsemArt**\
+Course: Architectural sketching, advanced course (online)
+
+**2016 - 2011 BNTU**\
+Course: Department of power engineering (engineer of watersupply, wastewater treatment and protection of water resources)
+
